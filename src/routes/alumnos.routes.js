@@ -1,7 +1,10 @@
 import { Router } from "express";
-import { crearAlumno } from "../controllers/alumnos.controllers.js";
+import {
+  crearAlumno,
+  listarAlumnos,
+} from "../controllers/alumnos.controllers.js";
 
 const router = Router();
-router.route("/").get(crearAlumno);
+router.route("/").post(crearAlumno).get(listarAlumnos);
 
 export default router;
