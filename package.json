@@ -9,7 +9,8 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": "Robles Luis",
+  "type": "module",
   "license": "ISC",
   "dependencies": {
     "cors": "^2.8.5",
